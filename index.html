@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversation Genome Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-black">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <span class="logo__icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z" fill="#FEFEFE"/>
+                                <circle cx="10" cy="10" r="3.5" fill="#1C1C1C"/>
+                            </svg>
+                        </span>
+                        <span class="logo__text">CONVERSATION GENOME PROJECT</span>
+                    </div>
+                    <nav class="navigation">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Whitepaper</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Bittensor</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Afterparty ↗</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <!-- Hero Section with updated card structure -->
+        <section class="hero section">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <div class="badge-group">
+                            <div class="badge">
+                                <span class="badge__text">V1.3 RELEASED</span>
+                            </div>
+                            <div class="badge__content">
+                                <span class="badge__message">TRY THE API NOW →</span>
+                            </div>
+                        </div>
+                        <h1 class="hero__heading">Unlock Infinite AI<br>Character Possibilities</h1>
+                        <p class="hero__subheading">
+                            Introducing the Personas API – Your Gateway to<br>
+                            AI-Powered Character Interactions
+                        </p>
+                        <div class="hero__actions">
+                            <a href="#" class="btn btn--primary">
+                                <span>Get Started Free</span>
+                                <span class="btn__icon">→</span>
+                            </a>
+                            <a href="#" class="btn btn--outline">API Docs</a>
+                        </div>
+                    </div>
+                    <div class="hero__cards">
+                        <!-- Wizard Card (Game Character with blue hat) -->
+                        <div class="character-card character-card--wizard">
+                            <div class="card__label">NPC Game<br>Character Persona</div>
+                        </div>
+                        
+                        <!-- Woman Card (Customer Service) -->
+                        <div class="character-card character-card--woman">
+                            <div class="card__label">Customer Service<br>Persona</div>
+                        </div>
+                        
+                        <!-- Man Card (Ecommerce) -->
+                        <div class="character-card character-card--man">
+                            <div class="card__label">Ecommerce Sales<br>Persona</div>
+                        </div>
+                        
+                        <!-- Avatar Card (Game Character) -->
+                        <div class="character-card character-card--avatar">
+                            <div class="card__label">NPC Game<br>Character Persona</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__bg-circle"></div>
+        </section>
+
+        <!-- Metrics Section -->
+        <section class="metrics section">
+            <div class="container">
+                <div class="metrics__content">
+                    <h2 class="metrics__heading">Unmatched Dataset Size</h2>
+                    <p class="metrics__subheading">Our database is massive, ensuring you have access to a wide variety of characters for any application.</p>
+                    
+                    <div class="metrics__container">
+                        <div class="metric">
+                            <div class="metric__number">500TB+</div>
+                            <div class="metric__label">Conversational Training Data</div>
+                        </div>
+                        
+                        <div class="metric">
+                            <div class="metric__number">6 Million</div>
+                            <div class="metric__label">Individual Characters</div>
+                        </div>
+                        
+                        <div class="metric">
+                            <div class="metric__number">10k</div>
+                            <div class="metric__label">New Characters Per Day</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- API Demo Section -->
+        <section class="api-demo section">
+            <div class="container">
+                <div class="api-demo__content">
+                    <div class="api-demo__text">
+                        <h2 class="api-demo__heading">See the API in Action</h2>
+                        <p class="api-demo__description">
+                            Explore our interactive demo to experience the potential of the Personas API.
+                        </p>
+                        <div class="api-demo__arrow">
+                            <svg width="140" height="80" viewBox="0 0 140 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 30 C60 30, 100 50, 140 80" stroke="#7253F6" stroke-width="3" stroke-linecap="round"/>
+                                <path d="M120 65 L140 80 L115 80" stroke="#7253F6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="api-demo__cards">
+                        <!-- Primary Card -->
+                        <div class="persona-card persona-card--primary">
+                            <div class="persona-card__header">
+                                <div class="persona-card__profile">
+                                    <img src="/api/placeholder/80/80" alt="David profile" class="persona-card__image">
+                                </div>
+                                <div class="persona-card__header-content">
+                                    <h3 class="persona-card__name">David</h3>
+                                    <div class="persona-card__details">
+                                        <p class="persona-card__detail">Age: 42</p>
+                                        <p class="persona-card__detail">Occupation: Marketing Manager</p>
+                                        <p class="persona-card__detail">at a mid-sized tech company</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="persona-card__section">
+                                <p class="persona-card__text">
+                                    Background: David has over 15 years of experience in marketing and has been with his current company for the past 5 years. He is responsible for overseeing marketing campaigns, analyzing market trends, and developing strategies to increase brand awareness. David holds an MBA from a top-tier university and is known for his analytical skills and creative approach to problem-solving.
+                                </p>
+                            </div>
+                            
+                            <div class="persona-card__section">
+                                <h4 class="persona-card__section-title">Personality Traits:</h4>
+                                <ul class="persona-card__list">
+                                    <li class="persona-card__list-item">Analytical and detail-oriented</li>
+                                    <li class="persona-card__list-item">Friendly and approachable</li>
+                                    <li class="persona-card__list-item">Highly organized and efficient</li>
+                                    <li class="persona-card__list-item">Strong leadership skills</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="persona-card__section">
+                                <h4 class="persona-card__section-title">Hobbies and Interests:</h4>
+                                <ul class="persona-card__list">
+                                    <li class="persona-card__list-item">Enjoys hiking and outdoor activities</li>
+                                    <li class="persona-card__list-item">Avid reader of business and self-improvement books</li>
+                                    <li class="persona-card__list-item">Likes to travel with his family</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="persona-card__section">
+                                <h4 class="persona-card__section-title">Physical Traits:</h4>
+                                <ul class="persona-card__list">
+                                    <li class="persona-card__list-item">Short brown hair</li>
+                                    <li class="persona-card__list-item">Blue eyes</li>
+                                    <li class="persona-card__list-item">Neatly trimmed beard</li>
+                                    <li class="persona-card__list-item">Dresses in business casual attire, typically a light blue button-up shirt and dark slacks</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Secondary Card -->
+                        <div class="persona-card persona-card--secondary">
+                            <div class="persona-card__header">
+                                <div class="persona-card__profile">
+                                    <img src="/api/placeholder/80/80" alt="Sales persona" class="persona-card__image">
+                                </div>
+                                <div class="persona-card__header-content">
+                                    <h3 class="persona-card__name">Sales</h3>
+                                    <div class="persona-card__details">
+                                        <p class="persona-card__detail">Marketing Manager</p>
+                                        <p class="persona-card__detail">at a mid-sized tech company</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="persona-card__section">
+                                <p class="persona-card__text">
+                                    Background: David has over 15 years of experience in marketing and has been with his current company for the past 5 years. He is responsible for overseeing marketing campaigns, analyzing market trends, and developing strategies to increase brand awareness.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Integration Section -->
+        <section class="integration section">
+            <div class="container">
+                <div class="integration__content">
+                    <div class="integration__code">
+                        <div class="code-editor">
+                            <div class="code-line"><span class="line-number">1</span><span class="comment">// Imports</span></div>
+                            <div class="code-line"><span class="line-number">2</span><span class="keyword">from</span> CGP <span class="keyword">import</span> <span class="variable">persona</span></div>
+                            <div class="code-line"><span class="line-number">3</span></div>
+                            <div class="code-line"><span class="line-number">4</span><span class="comment">// Collection name</span></div>
+                            <div class="code-line"><span class="line-number">5</span><span class="keyword">export</span> <span class="keyword">const</span> <span class="variable">collection</span> = <span class="string">'Design'</span>|</div>
+                            <div class="code-line"><span class="line-number">6</span></div>
+                            <div class="code-line"><span class="line-number">7</span><span class="comment">// Schema</span></div>
+                            <div class="code-line"><span class="line-number">8</span><span class="keyword">const</span> <span class="variable">schema</span> = <span class="keyword">new</span> <span class="function">Schema</span>({</div>
+                            <div class="code-line"><span class="line-number">9</span>  <span class="property">name</span>: {</div>
+                            <div class="code-line"><span class="line-number">10</span>    <span class="property">type</span>: <span class="keyword">String</span>,</div>
+                            <div class="code-line"><span class="line-number">11</span>    <span class="property">required</span>: <span class="keyword">true</span></div>
+                            <div class="code-line"><span class="line-number">12</span>  },</div>
+                            <div class="code-line"><span class="line-number">13</span></div>
+                            <div class="code-line"><span class="line-number">14</span>  <span class="property">description</span>: {</div>
+                            <div class="code-line"><span class="line-number">15</span>    <span class="property">type</span>: <span class="keyword">String</span></div>
+                            <div class="code-line"><span class="line-number">16</span>  }</div>
+                            <div class="code-line"><span class="line-number">17</span>}, {<span class="property">timestamps</span>: <span class="keyword">true</span>})</div>
+                            <div class="code-line"><span class="line-number">18</span></div>
+                            <div class="code-line"><span class="line-number">19</span><span class="comment">// Model</span></div>
+                            <div class="code-line"><span class="line-number">20</span><span class="keyword">export</span> <span class="keyword">default</span> <span class="variable">untitled</span>.<span class="function">model</span>(<span class="variable">collection</span>, <span class="variable">schema</span>, <span class="variable">collection</span>)</div>
+                            <div class="code-line"><span class="line-number">21</span></div>
+                        </div>
+                    </div>
+                    <div class="integration__text">
+                        <h2 class="integration__heading">Integration with the<br>Personas API</h2>
+                        <p class="integration__description">
+                            Integrating the Personas API into your application is designed to be seamless and straightforward. Here's how you can get started:
+                        </p>
+                        
+                        <div class="integration__steps">
+                            <div class="integration__step">
+                                <h3 class="step__heading">Step 1: Access the Documentation</h3>
+                                <p class="step__description">
+                                    Visit our comprehensive documentation page on Firebase.
+                                </p>
+                            </div>
+                            
+                            <div class="integration__step">
+                                <h3 class="step__heading">Step 2: Obtain</h3>
+                                <p class="step__description">
+                                    Your API Key To start making requests to the API, you need to generate an API key.
+                                </p>
+                            </div>
+                            
+                            <div class="integration__step">
+                                <h3 class="step__heading">Step 3: Implement Characters into Your Application</h3>
+                                <p class="step__description">
+                                    With the API responses, you can seamlessly integrate characters into your application.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="integration__actions">
+                            <a href="#" class="btn btn--outline btn--small">View API Docs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section section">
+            <div class="container">
+                <div class="faq-content">
+                    <div class="section__header">
+                        <h2 class="section__heading">Frequently asked questions</h2>
+                        <p class="section__subheading">Everything you need to know about the product and billing.</p>
+                    </div>
+                    
+                    <div class="faq-list">
+                        <!-- FAQ Item 1 (Open) -->
+                        <div class="faq-item faq-item--open">
+                            <div class="faq-question">
+                                <h3 class="faq-question__text">What is the Personas API?</h3>
+                                <button class="faq-question__toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="faq-answer">
+                                <p>The Personas API is a robust tool that allows users to query a large database of randomized character system prompts. These characters can be utilized in various applications, including AI-powered customer service bots, e-commerce sales bots, NPC game characters, and more.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 2 (Closed) -->
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3 class="faq-question__text">How large is the character database?</h3>
+                                <button class="faq-question__toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="12" y1="8" x2="12" y2="16" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="faq-answer">
+                                <p>The character database content would go here.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 3 (Closed) -->
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3 class="faq-question__text">Can I see a demo of the Personas API before integrating it?</h3>
+                                <button class="faq-question__toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="12" y1="8" x2="12" y2="16" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Demo information would go here.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 4 (Closed) -->
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3 class="faq-question__text">How do I get started with the Personas API?</h3>
+                                <button class="faq-question__toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="12" y1="8" x2="12" y2="16" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Getting started information would go here.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 5 (Closed) -->
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3 class="faq-question__text">How does billing work?</h3>
+                                <button class="faq-question__toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="12" y1="8" x2="12" y2="16" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Billing information would go here.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 6 (Closed) - Duplicate of item 4 as shown in screenshot -->
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3 class="faq-question__text">How do I get started with the Personas API?</h3>
+                                <button class="faq-question__toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="12" y1="8" x2="12" y2="16" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Getting started information would go here.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Card -->
+                    <div class="contact-card">
+                        <h3 class="contact-card__heading">Still have questions?</h3>
+                        <p class="contact-card__text">Can't find the answer you're looking for? Please chat to our friendly team.</p>
+                        <a href="#" class="btn btn--outline btn--contact">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-card">
+                    <div class="cta-content">
+                        <h2 class="cta-heading">Ready to Get Started?</h2>
+                        <p class="cta-description">Dive into our comprehensive documentation and start querying our bank of characters.</p>
+                    </div>
+                    <div class="cta-action">
+                        <a href="#" class="btn btn--primary btn--cta">
+                            <span>Get Started Free</span>
+                            <span class="btn__icon">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M40 70C56.5685 70 70 56.5685 70 40C70 23.4315 56.5685 10 40 10C23.4315 10 10 23.4315 10 40C10 56.5685 23.4315 70 40 70Z" stroke="white" stroke-width="2"/>
+                            <circle cx="40" cy="40" r="15" stroke="white" stroke-width="2"/>
+                            <path d="M15 25C25 10 55 10 65 25" stroke="white" stroke-width="2"/>
+                            <path d="M15 55C25 70 55 70 65 55" stroke="white" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div class="footer__name">Conversation Genome Project</div>
+                </div>
+                
+                <div class="footer__menu">
+                    <div class="footer__column">
+                        <h3 class="footer__heading">Info</h3>
+                        <ul class="footer__links">
+                            <li class="footer__link-item"><a href="#" class="footer__link">Whitepaper</a></li>
+                            <li class="footer__link-item"><a href="#" class="footer__link">About</a></li>
+                            <li class="footer__link-item"><a href="#" class="footer__link">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h3 class="footer__heading">Social</h3>
+                        <ul class="footer__links">
+                            <li class="footer__link-item"><a href="#" class="footer__link">Whitepaper</a></li>
+                            <li class="footer__link-item"><a href="#" class="footer__link">X / Twitter</a></li>
+                            <li class="footer__link-item"><a href="#" class="footer__link">Discord</a></li>
+                            <li class="footer__link-item"><a href="#" class="footer__link">Instagram</a></li>
+                            <li class="footer__link-item"><a href="#" class="footer__link">TikTok</a></li>
+                            <li class="footer__link-item"><a href="#" class="footer__link">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h3 class="footer__heading">Helpful Links</h3>
+                        <ul class="footer__links">
+                            <li class="footer__link-item"><a href="#" class="footer__link">Bittensor</a></li>
+                            <li class="footer__link-item"><a href="#" class="footer__link">Afterparty</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+
+document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+        const item = question.parentElement;
+        const isOpen = item.classList.contains('faq-item--open');
+        
+        // Close all first
+        document.querySelectorAll('.faq-item').forEach(faqItem => {
+            faqItem.classList.remove('faq-item--open');
+        });
+        
+        // Then open the clicked one (if it wasn't open before)
+        if (!isOpen) {
+            item.classList.add('faq-item--open');
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all FAQ question elements
+    const faqQuestions = document.querySelectorAll('.faq-question');
+    
+    // Add click event listener to each question
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+            // Get the parent FAQ item
+            const faqItem = question.parentElement;
+            
+            // Check if this item is already open
+            const isOpen = faqItem.classList.contains('faq-item--open');
+            
+            // Close all FAQ items first
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('faq-item--open');
+            });
+            
+            // If the clicked item wasn't open before, open it now
+            if (!isOpen) {
+                faqItem.classList.add('faq-item--open');
+            }
+        });
+    });
+});
+
+    </script>
+</body>
+</html>
