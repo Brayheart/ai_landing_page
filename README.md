@@ -100,11 +100,6 @@ The site is compatible with:
 - Safari (latest)
 - Edge (latest)
 
-## API Documentation
-
-While this repository contains the marketing website, API documentation can be found at the following endpoint:
-`https://api.conversationgenome.com/docs`
-
 ## Contributing
 
 1. Fork the repository
