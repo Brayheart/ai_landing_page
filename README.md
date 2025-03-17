@@ -4,15 +4,6 @@
 
 The Conversation Genome Project is a platform that provides AI-powered character interactions through the Personas API. This project enables developers to implement rich, contextual AI characters for various applications including customer service bots, e-commerce sales assistants, gaming NPCs, and more.
 
-## Features
-
-- **Extensive Character Database**: Access to 6 million individual characters with 500TB+ of conversational training data
-- **Character Customization**: Create and deploy custom AI characters with unique personalities, backgrounds, and traits
-- **Simple API Integration**: Easy-to-implement API for adding character interactions to any application
-- **Multiple Use Cases**: Ready for implementation in games, customer service, e-commerce, education, and more
-- **Responsive Design**: Fully responsive web interface that works on all devices
-- **Modern UI Components**: Clean, modern UI with animated components and interactive elements
-
 ## Technologies Used
 
 - HTML5
@@ -137,12 +128,6 @@ While this repository contains the marketing website, API documentation can be f
 ## License
 
 [MIT License](LICENSE)
-
-## Contact
-
-For questions or support, please reach out to:
-- Email: info@conversationgenome.com
-- Twitter: [@ConvoGenome](https://twitter.com/ConvoGenome)
 
 ## Acknowledgements
 
