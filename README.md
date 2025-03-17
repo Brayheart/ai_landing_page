@@ -73,18 +73,6 @@ To add new sections, follow the existing HTML structure and use the provided CSS
 </section>
 ```
 
-## Lazy Loading Images
-
-The project implements lazy loading for images to improve performance. Images use the `loading="lazy"` attribute and a data-src pattern:
-
-```html
-<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
-     data-src="./assets/image.png" 
-     loading="lazy" 
-     class="lazy" 
-     alt="Description" />
-```
-
 JavaScript handles loading the actual image when it enters the viewport.
 
 ## Responsive Design
