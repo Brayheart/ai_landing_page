@@ -1,7 +1,5 @@
 # Conversation Genome Project
 
-![Conversation Genome Project Logo](./assets/logo.png)
-
 ## Overview
 
 The Conversation Genome Project is a platform that provides AI-powered character interactions through the Personas API. This project enables developers to implement rich, contextual AI characters for various applications including customer service bots, e-commerce sales assistants, gaming NPCs, and more.
